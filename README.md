@@ -34,6 +34,20 @@ AI의 출력 생략을 방지합니다. 플레이스홀더, 스켈레톤, 미완
 
 ## 사용법
 
+### Claude Code (플러그인)
+
+플러그인으로 설치하면 4개 스킬이 자동으로 활성화됩니다. 별도의 파일 복사나 참조가 필요 없습니다.
+
+```bash
+# 프로젝트 레벨 설치
+claude mcp add-plugin supanova-design-skill -- https://github.com/uxjoseph/supanova-design-skill.git
+
+# 또는 로컬 디렉토리로 테스트
+claude --plugin-dir /path/to/supanova-design-skill
+```
+
+### Cursor / Windsurf / 기타 AI 에디터
+
 1. 필요한 스킬의 `SKILL.md` 파일을 프로젝트에 복사합니다.
 2. AI 에디터에서 해당 파일을 참조하세요. (예: Cursor에서 `@SKILL.md`)
 

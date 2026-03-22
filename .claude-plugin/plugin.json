@@ -1,0 +1,24 @@
+{
+  "name": "supanova-design-skill",
+  "version": "1.0.0",
+  "description": "AI landing page design skills that generate $150k agency-quality pages. Covers design generation, redesign, premium aesthetics, and full-output enforcement.",
+  "author": {
+    "name": "uxjoseph",
+    "url": "https://supanova.dev"
+  },
+  "repository": "https://github.com/uxjoseph/supanova-design-skill",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "landing-page",
+    "frontend",
+    "tailwind",
+    "korean-typography"
+  ],
+  "skills": [
+    "./taste-skill",
+    "./redesign-skill",
+    "./soft-skill",
+    "./output-skill"
+  ]
+}
